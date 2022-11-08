@@ -1,2 +1,3 @@
 # CTF-Write-Ups
-A repository in which I describe the CTF challenges that I have solved and how it was done!
+This is going to be a space in which I post my write-ups regarding various CTF challenges that I solved and explain how I solved it!
+
