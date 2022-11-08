@@ -2,3 +2,5 @@ This challenge, which was featured in PicoCTF 2021, and is now a part of PicoGym
 
 ![image](https://user-images.githubusercontent.com/101998961/200682168-f349c0e2-5a96-45b2-80ca-2fcc0b4e036c.png)
 
+We see here that a flag file has been given to us
+
