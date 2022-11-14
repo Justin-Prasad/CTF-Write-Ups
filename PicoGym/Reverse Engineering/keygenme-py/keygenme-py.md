@@ -27,4 +27,7 @@ The first thing I found was a line called ```key_part_static1_trial = "picoCTF{1
 
 Right below these, there were 2 other lines that said ```key_part_dynamic1_trial = "xxxxxxxx"```, ```key_part_static2_trial = "}"```, and ```key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial + key_part_static2_trial```
 
-So from this information, we need to somehow activate the full template trial in order to get the whole flag. Going back to the part where we decided to play with the program a bit, there was an option that directed us to a message where it said we had to buy the full version of the software
+After sifting through the code a bit more I came across a function called ```check_key```. This is what it looks like 
+
+![image](https://user-images.githubusercontent.com/101998961/201789081-cf8defb4-642a-4401-a535-82deb2025ae4.png)
+
