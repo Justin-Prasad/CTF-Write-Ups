@@ -23,11 +23,17 @@ We should try to run the python file, and see if there's anything of interest th
 
 After giving the file permission to run, and then running it, this is what we are met with. I played around with the program for a bit to get a feel of what the basic tasks were. After getting some rather vague answers, I decided to open up nano on my terminal and inspect the code. 
 
-The first thing I found was a line called ```key_part_static1_trial = "picoCTF{1n_7h3_|<3y_of_"```. This pretty much let me know that I was on the right track. The idea I had was to alter the code so instead of constantly blocking us, we can bypass it and enter some kind of key to be decrypted. 
+The first thing I found was a line called ```key_part_static1_trial = "picoCTF{1n_7h3_|<3y_of_"```. This pretty much let me know that I was on the right track. The idea I had was to look through the code to see if anything stood out.
 
-Right below these, there were 2 other lines that said ```key_part_dynamic1_trial = "xxxxxxxx"```, ```key_part_static2_trial = "}"```, and ```key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial + key_part_static2_trial```
+Right below, there were 2 other lines that said ```key_part_dynamic1_trial = "xxxxxxxx"```, ```key_part_static2_trial = "}"```, and ```key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial + key_part_static2_trial```. 
 
 After sifting through the code a bit more I came across a function called ```check_key```. This is what it looks like 
 
-![image](https://user-images.githubusercontent.com/101998961/201789081-cf8defb4-642a-4401-a535-82deb2025ae4.png)
+![image](https://user-images.githubusercontent.com/101998961/201789326-3db8e270-c9e7-4c6b-a38e-a4516624292a.png)
+
+We can see that it's using the username defined in the program as "ANDERSON" from the ```username_trial```, which it then encrypts using SHA256 and then puts into hexadecimal using ```hexdigest``` and then check checks a particular character in the inputted key, and then compares it with the actual key.
+
+What we need to do is to encrypt ANDERSON into SHA256, then into hexadecimal, and find the indicated characters in the string as specified in the code. So that is the 4th, 5th, 3rd, 6th, 2nd, 7th, 1st, and 8th characters of the string. You can make a python script to do so if you wish but I just did it with online encoders and picking the characters by hand. 
+
+What I got in the end was the characters ```01582419```. Then all I need to do from there is rerun the program, select option c, and then do input that key to reveal the flag. 
 
