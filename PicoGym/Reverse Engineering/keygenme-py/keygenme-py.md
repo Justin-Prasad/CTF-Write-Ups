@@ -39,5 +39,8 @@ We can see that it's using the username defined in the program as "ANDERSON" fro
 
 What we need to do is to encrypt ANDERSON into SHA256, then into hexadecimal, and find the indicated characters in the string as specified in the code. So that is the 4th, 5th, 3rd, 6th, 2nd, 7th, 1st, and 8th characters of the string. You can make a python script to do so if you wish but I just did it with online encoders and picking the characters by hand. 
 
-What I got in the end was the characters ```01582419```. Then all I need to do from there is rerun the program, select option c, and then do input that key to reveal the final part flag. 
+What I got in the end was the characters ```01582419```. Then all there is to be done now is to add it to what we have in the flag so far and bam! 
+
+# Flag #
+```picoCTF{1n_7h3_|<3y_of_01582419```
 
