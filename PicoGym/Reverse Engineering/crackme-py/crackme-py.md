@@ -4,7 +4,7 @@ Category: Reverse Engineering
 Points: 30
 
 # Challenge Description #
-The description just provides us with this file. [crackme-py (1).py](https://github.com/Justin-Prasad/CTF-Write-Ups/blob/main/PicoGym/Reverse%20Engineering/crackme-py/crackme%20(1).py)
+The description just provides us with this file. https://github.com/Justin-Prasad/CTF-Write-Ups/blob/main/PicoGym/Reverse%20Engineering/crackme-py/crackme.py
 
 # Hints #
 No hints are provided for this challenge
