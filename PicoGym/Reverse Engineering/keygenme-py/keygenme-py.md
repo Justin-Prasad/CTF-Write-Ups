@@ -31,8 +31,65 @@ Right below, there were 2 other lines that said ```key_part_dynamic1_trial = "xx
 
 After sifting through the code a bit more I came across a function called ```check_key```. This is what it looks like. 
 
-![image](https://user-images.githubusercontent.com/101998961/201789326-3db8e270-c9e7-4c6b-a38e-a4516624292a.png)
+``` def check_key(key, username_trial):
 
+    global key_full_template_trial
+
+    if len(key) != len(key_full_template_trial):
+        return False
+    else:
+        # Check static base key part --v
+        i = 0
+        for c in key_part_static1_trial:
+            if key[i] != c:
+                return False
+
+            i += 1
+
+        # TODO : test performance on toolbox container
+        # Check dynamic part --v
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[4]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[5]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[3]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[6]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[2]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[7]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[1]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[8]:
+            return False
+
+
+
+        return True
+```
 This was a lovely gift as we know we need to be able to obtain some kind of key. 
 
 We can see that it's using the username defined in the program as "ANDERSON" from the ```username_trial```, which it then encrypts using SHA256 and then puts into hexadecimal using ```hexdigest``` and then check checks a particular character in the inputted key, and then compares it with the actual key.
