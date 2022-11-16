@@ -25,6 +25,8 @@ It should be known that there is another function called ```choose_greatest``` b
 
 I made mine as ```print(decode_secret(bezos_cc_secret))```
 
+Alternatively, one could also just copy and paste ```A:4@r%uL`M-^M0c0AbcM-MFE02fh3e4a5N``` into an online ROT47 decoder like CyberChef or something of the sort as the ```decode_secret``` function tells rather clearly that it is a ROT47 decoder. We will still end up with the same flag in the end. 
+
 # Flag #
 ```picoCTF{1|\/|_4_p34|\|ut_a79b6c2d}```
 
