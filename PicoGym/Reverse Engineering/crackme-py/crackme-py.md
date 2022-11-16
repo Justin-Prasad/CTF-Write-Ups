@@ -4,7 +4,7 @@ Category: Reverse Engineering
 Points: 30
 
 # Challenge Description #
-The description just provides us with this file. https://mercury.picoctf.net/static/8fc4e878bd6708031d67cb846f03c140/crackme.py
+The description just provides us with this file. crackme-py (1).py
 
 # Hints #
 No hints are provided for this challenge
