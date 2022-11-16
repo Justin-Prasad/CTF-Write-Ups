@@ -6,7 +6,7 @@ Points: 5
 
 # Challenge Description #
 This file has a flag in plain sight (aka "in-the-clear")
-https://mercury.picoctf.net/static/a5683698ac318b47bd060cb786859f23/flag
+[Download flag](https://github.com/Justin-Prasad/CTF-Write-Ups/blob/main/PicoGym/General%20Skills/Obedient%20Cat/flag.txt)
 
 
 # Hints #
