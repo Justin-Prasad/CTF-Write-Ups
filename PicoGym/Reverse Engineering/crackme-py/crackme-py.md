@@ -17,11 +17,11 @@ Given that the challenge presents us with a python file in a Reverse Engineering
 # We want our biggest client to know his information is safe with us.
 bezos_cc_secret = "A:4@r%uL`M-^M0c0AbcM-MFE02fh3e4a5N" 
 ```
-We see as we scroll down in the file, there is a function called ```decode_secret```. At this point, we know that ```bezos_cc_secret``` should be decoded by ```decode_secret```.
+We see as we scroll down in the file, there is a function definition called ```decode_secret```. At this point, we know that ```bezos_cc_secret``` should be decoded by ```decode_secret```.
 
 From this point, all we really need to do is add our own print statement to decode the flag using the decoder function provided. 
 
-It should be known that there is another function called ```choose_greatest``` but it's not really that important. We can disregard it, and delete the ```choose_greatest()``` call at the bottom of the file and replace it with a print statement for the decoded string. 
+It should be known that there is another function definition called ```choose_greatest``` but it's not really that important. We can disregard it, and delete the ```choose_greatest()``` call at the bottom of the file and replace it with a print statement for the decoded string. 
 
 I made mine as ```print(decode_secret(bezos_cc_secret))```
 
