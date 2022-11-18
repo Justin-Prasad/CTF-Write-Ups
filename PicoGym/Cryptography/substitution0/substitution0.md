@@ -34,4 +34,4 @@ Thj sdqy xg: mxirCTF{5UB5717U710N_3V0LU710N_03055505}
 We can see that we have the actual meat of the flag here in ```mxirCTF{5UB5717U710N_3V0LU710N_03055505}``` so all we need to do is remove ```mxir``` and add ```pico```. Alternatively, one could also append all the lower case letters to the plaintext and ciphertext on CyberChef to reveal the flag.
 
 # Flag #
-```mxirCTF{5UB5717U710N_3V0LU710N_03055505}```
+```picoCTF{5UB5717U710N_3V0LU710N_03055505}```
