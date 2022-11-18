@@ -14,4 +14,19 @@ This challenge didn't have much to it. From the name alone I inferred that it wa
 
 A substitution cipher is a cipher in which alpha-numeric characters are... well... substituted, most often with other letters or numbers.
 
-When using ```cat``` on ```message.txt``` I noticed the top of the file had 
+When using ```cat``` on ```message.txt``` I noticed the top of the file had the line ```QWITJSYHXCNDFERMUKGOPVALBZ```. Seeing as how this was a substitution cipher, I assumed it was the substitution values for the standard alphabet ```ABCDEFGHIJKLMNOPQRSTUVWXYZ```. As one naturally does, I made my way to CyberChef and decided to plug it in. After running it with ```QWITJSYHXCNDFERMUKGOPVALBZ``` as my key, I saw a message that looked like this.
+
+```
+ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+
+Hjkjpmre Ljykqet qkrgj, axoh q ykqvj qet goqojdb qxk, qet wkrpyho fj ohj wjjodj
+skrf q ydqgg iqgj xe ahxih xo aqg jeidrgjt. Io aqg q wjqpoxspd giqkqwqjpg, qet, qo
+ohqo oxfj, penerae or eqopkqdxgog—rs irpkgj q ykjqo mkxzj xe q gixjeoxsxi mrxeo
+rs vxja. Thjkj ajkj oar krpet wdqin gmrog ejqk rej jlokjfxob rs ohj wqin, qet q
+drey rej ejqk ohj rohjk. Thj giqdjg ajkj jlijjtxeydb hqkt qet ydrggb, axoh qdd ohj
+qmmjqkqeij rs wpkexghjt yrdt. Thj ajxyho rs ohj xegjio aqg vjkb kjfqknqwdj, qet,
+oqnxey qdd ohxeyg xeor iregxtjkqoxre, I irpdt hqktdb wdqfj Jpmxojk srk hxg rmxexre
+kjgmjioxey xo.
+
+Thj sdqy xg: mxirCTF{5UB5717U710N_3V0LU710N_03055505}
+```
