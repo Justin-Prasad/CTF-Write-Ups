@@ -14,7 +14,7 @@ This challenge didn't have much to it. From the name alone I inferred that it wa
 
 A substitution cipher is a cipher in which alpha-numeric characters are... well... substituted, most often with other letters or numbers.
 
-When using ```cat``` on ```message.txt``` I noticed the top of the file had the line ```QWITJSYHXCNDFERMUKGOPVALBZ```. Seeing as how this was a substitution cipher, I assumed it was the substitution values for the standard alphabet ```ABCDEFGHIJKLMNOPQRSTUVWXYZ```. As one naturally does, I made my way to CyberChef and decided to plug it in. After running it with ```QWITJSYHXCNDFERMUKGOPVALBZ``` as my key, I saw a message that looked like this.
+When using ```cat``` on ```message.txt``` in the terminal, I noticed the top of the file had the line ```QWITJSYHXCNDFERMUKGOPVALBZ```. Seeing as how this was a substitution cipher, I assumed it was the substitution values for the standard alphabet ```ABCDEFGHIJKLMNOPQRSTUVWXYZ```. As one naturally does, I made my way to CyberChef and decided to plug it in. After running it with ```QWITJSYHXCNDFERMUKGOPVALBZ``` as my key, I saw a message that looked like this.
 
 ```
 ABCDEFGHIJKLMNOPQRSTUVWXYZ 
