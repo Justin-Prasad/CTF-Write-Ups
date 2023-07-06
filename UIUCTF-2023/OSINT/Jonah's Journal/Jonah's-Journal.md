@@ -33,8 +33,6 @@ There's a second branch!
 
 Hallelujah! We've found a new lead!
 
-![image](https://github.com/Justin-Prasad/CTF-Write-Ups/assets/101998961/e6f40e77-2975-48dd-b24a-90f9eb6b36d0)
-
 We were just in the main branch, so let's see what's in the active branch. Upon clicking, we see the following screen.
 
 ![image](https://github.com/Justin-Prasad/CTF-Write-Ups/assets/101998961/4dc1de0c-35a5-43fa-a34e-79fa650fb25a)
