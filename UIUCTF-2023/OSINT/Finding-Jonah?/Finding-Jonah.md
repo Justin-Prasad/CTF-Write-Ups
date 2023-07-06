@@ -24,7 +24,8 @@ The next step is to look for any significant landmark in the picture. Seeing as 
 
 ![image](https://github.com/Justin-Prasad/CTF-Write-Ups/assets/101998961/0680948a-01a3-4b92-9232-58e75591afa1)
 
-It looks like a Boeing logo! That's a pretty notable company... right? Welp, we'll find out. Now the next step is to actually narrow down the area and to confirm through the use of a lovely developer's tool that I like to call "Google."
+It looks like a Boeing logo! That's a pretty notable company... right?
+Now the next step is to actually narrow down the area and to confirm through the use of a lovely developer's tool that I like to call "Google."
 
 ### Step 3
 After a quick search I figured out that there exists a Boeing office in Chicago. The address is `100 N Riverside Plaza, Chicago, IL 60606, United States`. This led me to search a list of hotels near the Boeing building in Chicago as the picture seemed to depict, and Hampton Inn was the first result. Puttin this into a flag format yielded the correct answer!
