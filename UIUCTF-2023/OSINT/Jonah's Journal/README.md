@@ -10,7 +10,6 @@ Within the context of the series, this challenge seems to be one where we're giv
 Okay so what do we do now? The description says he took to the online notebook and *his usernames have been relatively consistent*. That phrase is very important because now we just need to try to find an account similarly named to the twitter account we found in the "What's for Dinner" challenge.
 
 After a bit of trial and error, I found an account by the username of ```JonahExplorer``` where there exists a public repository called ```adventurecodes```.
-![image](https://github.com/Justin-Prasad/CTF-Write-Ups/assets/101998961/fcd381bf-fd4a-4ffb-825d-adf24d95fc8a)
 
 Not only that but the date it was created also seemed to line up as well (considering it was made for UIUCTF 2023!)
 
